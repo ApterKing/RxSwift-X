@@ -1,0 +1,6 @@
+framework module RxSwift_X {
+  umbrella header "RxSwift-X-umbrella.h"
+
+  export *
+  module * { export * }
+}
