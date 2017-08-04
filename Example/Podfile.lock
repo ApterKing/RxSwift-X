@@ -1,5 +1,11 @@
 PODS:
-  - RxSwift-X (0.1.0)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - RxSwift-X (0.1.0):
+    - RxSwift-X/RxCocoa (= 0.1.0)
+  - RxSwift-X/RxCocoa (0.1.0):
+    - RxCocoa
 
 DEPENDENCIES:
   - RxSwift-X (from `../`)
@@ -9,7 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxSwift-X: a6ea2b27aa2d5a0505a1877f9a7d7543614e314b
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxSwift-X: d00f0e8d631a1cf7d6a3938de13916637d77117e
 
 PODFILE CHECKSUM: 17165dbfff94b15aed30979b01920fa7fe5ded86
 
